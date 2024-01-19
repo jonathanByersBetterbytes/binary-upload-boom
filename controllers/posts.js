@@ -72,7 +72,7 @@ module.exports = {
       console.log("Deleted Post");
       res.redirect("/profile");
     } catch (err) {
-      res.redirect("/profile");
+      res.redirect("/profile"); 
     }
   },
 };
