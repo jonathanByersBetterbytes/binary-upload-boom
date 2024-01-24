@@ -26,7 +26,7 @@ module.exports = {
       res.render("post.ejs", { post: post, user: req.user, comments: comments });
     } catch (err) {
       console.log(err);
-    }
+    } 
   },
   createPost: async (req, res) => {
     try {
@@ -45,7 +45,7 @@ module.exports = {
       res.redirect("/profile");
     } catch (err) {
       console.log(err);
-    }
+    } 
   },
   likePost: async (req, res) => {
     try {
